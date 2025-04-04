@@ -1,0 +1,43 @@
+
+plugins {
+    id 'com.android.application'
+    
+}
+
+android {
+    namespace 'io.github.moonleeeaf.share2openwith'
+    compileSdk 34
+    
+    defaultConfig {
+        applicationId "io.github.moonleeeaf.share2openwith"
+        minSdk 14
+        targetSdk 33
+        versionCode 10000
+        versionName "1.0.0"
+        
+        vectorDrawables { 
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    
+}
+
+dependencies {
+
+}
