@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "打开方式"
+rootProject.name = "ForwardMySelf"
 
 include(":app")
